@@ -29,19 +29,3 @@ public class Escalacao{
     }   
 
 }
-
-public class Tester(){
-
-    Escalacao escalacao = new Escalacao();
-
-
-    escalacao.setTime("Botafogo");
-    escalacao.setJogador1("Gatito");
-    escalacao.setJogador2("Rafael");
-    escalacao.setJogador3("Carli");
-    escalacao.setJogador4("Chay");
-    escalacao.setJogador5("Navarro");
-    escalacao.imprimir();
-    System.out.println( "Data do jogo: 15/09/2021" );
-
-}
